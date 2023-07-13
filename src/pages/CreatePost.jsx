@@ -21,7 +21,7 @@ const CreatePost = () => {
     setForm({ ...form, [name]: value })
   }
   const handleSurpriseMe = () => {
-    setForm({ ...form, prompt: getRandomPrompt() })
+    setForm({ ...form, prompt: getRandomPrompt(prompt) })
   }
   const generateImg = async (e) => {
     e.preventDefault()
