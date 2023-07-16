@@ -40,6 +40,7 @@ const CreatePost = () => {
       }
       catch (error) {
         console.log(error)
+        alert(error)
       }
       finally {
         setGeneratingImg(false)
